@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f2f3f5;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+    height: 50px;
+    background-color: #fff;
+    margin: 0;
+    padding-top: 15px;
+    padding-left: 0;
+}
+
+nav li {
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.estudo-caso{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.estudo1, .estudo2, .estudo3{
+    text-align: center;
+}
+
+.resumo{
+    display: flex;
+    justify-content: space-evenly;
+}
+.parte1, .parte2, .parte3{
+    width: 300px;
+    text-align: center;
+
+}
+
+aside {
+    margin: 5px 35px;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    background-color: rgb(255, 255, 255);
+}
+
+.title {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+
+footer{
+    margin: 5px 35px;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    background-color: rgb(255, 255, 255);
+}
