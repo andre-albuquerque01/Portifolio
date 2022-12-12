@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+nav li {
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.estudo-caso{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.estudo1, .estudo2, .estudo3{
+    text-align: center;
+}
+
+.resumo{
+    display: flex;
+    justify-content: space-evenly;
+}
+.parte1, .parte2, .parte3{
+    width: 300px;
+    text-align: center;
+
+}
